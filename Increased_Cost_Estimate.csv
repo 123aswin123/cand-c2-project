@@ -1,0 +1,77 @@
+﻿Your Estimate
+Service Type,Components,Region,Component Price,Service Price
+Amazon EC2 Service (US East (N. Virginia)),,,,$8101.56
+,Compute:,US East (N. Virginia),$7397.02
+,EBS Volumes:,US East (N. Virginia),$300
+,EBS IOPS:,US East (N. Virginia),$0
+,EBS Snapshots:,US East (N. Virginia),$386.28
+,Reserved Instances (one-time fee):,US East (N. Virginia),$0
+,T2/T3 Unlimited vCPU for Linux  RHEL and SLES:,US East (N. Virginia),$5
+,T2/T3 Unlimited vCPU for Windows and Windows with SQL Web:,US East (N. Virginia),$9.6
+,Elastic IPs:,US East (N. Virginia),$3.66
+Amazon S3 Service (US East (N. Virginia)),,,,$0.78
+,S3 Standard Storage:,US East (N. Virginia),$0.69
+,S3 Standard Put Requests:,US East (N. Virginia),$0.05
+,S3 Standard Other Requests:,US East (N. Virginia),$0.04
+Amazon Route 53 Service,,,,$0.9
+,Hosted Zones:,Global,$0.5
+,Standard Queries:,Global,$0.4
+Amazon CloudFront Service,,,,$640.92
+,Custom SSL Certificates:,Global,$600
+,Data Transfer Out:,Global,$26.78
+,Data Transfer Out to Origin:,Global,$2.7
+,Requests:,Global,$11.44
+,Invalidations:,Global,$0
+Amazon RDS Service (US East (N. Virginia)),,,,$5024.4
+,DB instances:,US East (N. Virginia),$4005.52
+,Storage:,US East (N. Virginia),$512
+,I/O:,US East (N. Virginia),$409.6
+,Backups:,US East (N. Virginia),$97.28
+Amazon Elastic Load Balancing (US East (N. Virginia)),,,,$64.68
+,Classic LBs:,US East (N. Virginia),$18.3
+,Data Processed by Classic LBs:,US East (N. Virginia),$1.72
+,Application LBs:,US East (N. Virginia),$28.19
+,Network LBs:,US East (N. Virginia),$16.47
+Amazon DynamoDB Service (US East (N. Virginia)),,,,$80.89
+,On-demand Capacity:,US East (N. Virginia),$0
+,Provisioned Capacity:,US East (N. Virginia),$80.89
+,Indexed Data Storage:,US East (N. Virginia),$0
+,DynamoDB Streams:,US East (N. Virginia),$0
+,On-demand backup:,US East (N. Virginia),$0
+,Continuous backup (PITR):,US East (N. Virginia),$0
+,Restoring a table:,US East (N. Virginia),$0
+Amazon ElastiCache Service (US East (N. Virginia)),,,,$158.12
+,On-Demand Cache Nodes:,US East (N. Virginia),$158.12
+Amazon CloudWatch Service (US East (N. Virginia)),,,,$1625.54
+,Custom metrics:,US East (N. Virginia),$42
+,API Requests:,US East (N. Virginia),$3.18
+,Standard Alarms:,US East (N. Virginia),$32
+,Ingested Logs:,US East (N. Virginia),$747.5
+,Archived Logs:,US East (N. Virginia),$44.85
+,Vended Logs:,US East (N. Virginia),$750
+,Dashboard:,US East (N. Virginia),$6
+,Custom events:,US East (N. Virginia),$0.01
+Amazon SES Service (US East (N. Virginia)),,,,$6
+,Send Messages from EC2 ,US East (N. Virginia),$0
+,Attachment from EC2,US East (N. Virginia),$6
+AWS Direct Connect Service (US East (N. Virginia)),,,,$880.4
+,Ports:,US East (N. Virginia),$878.4
+,Data Transfer In:,US East (N. Virginia),$0
+,Data Transfer Out:,US East (N. Virginia),$2
+Amazon VPC Service (US East (N. Virginia)),,,,$69.72
+,NAT Gateway,US East (N. Virginia),$37.44
+,Private Link:,US East (N. Virginia),$29.28
+,Intra – Region data Transfer:,US East (N. Virginia),$3
+AWS Data Transfer In,,,,$0
+,US East (N. Virginia) Region:,Global,$0
+AWS Data Transfer Out,,,,$42.21
+,US East (N. Virginia) Region:,Global,$42.21
+AWS Support (Business),,,,$1468.73
+,Support for all AWS services:,,$1468.73
+,,Total Monthly Payment:,,$18164.85
+
+#justification
+With an increased budget, it is possible to add more monitoring (Custom cloud watch metrics)
+Also, monitoring can be increased. For example, in this plan CloudWatch custom metrics have een added.
+AWS support plan offers better service and quick turnaround times.
+An increased budget also allows for hot backups and redundancy. In this plan, the RDS database instances are made multi-AZ. 

@@ -1,0 +1,56 @@
+﻿Your Estimate
+Service Type,Components,Region,Component Price,Service Price
+Amazon EC2 Service (US East (N. Virginia)),,,,$1885.1
+,Compute:,US East (N. Virginia),$1195.16
+,EBS Volumes:,US East (N. Virginia),$300
+,EBS IOPS:,US East (N. Virginia),$0
+,EBS Snapshots:,US East (N. Virginia),$386.28
+,Reserved Instances (one-time fee):,US East (N. Virginia),$0
+,Elastic IPs:,US East (N. Virginia),$3.66
+Amazon S3 Service (US East (N. Virginia)),,,,$0.78
+,S3 Standard Storage:,US East (N. Virginia),$0.69
+,S3 Standard Put Requests:,US East (N. Virginia),$0.05
+,S3 Standard Other Requests:,US East (N. Virginia),$0.04
+Amazon Route 53 Service,,,,$0.9
+,Hosted Zones:,Global,$0.5
+,Standard Queries:,Global,$0.4
+Amazon CloudFront Service,,,,$640.92
+,Custom SSL Certificates:,Global,$600
+,Data Transfer Out:,Global,$26.78
+,Data Transfer Out to Origin:,Global,$2.7
+,Requests:,Global,$11.44
+Amazon RDS Service (US East (N. Virginia)),,,,$3742.84
+,DB instances:,US East (N. Virginia),$3004.14
+,Storage:,US East (N. Virginia),$384
+,I/O:,US East (N. Virginia),$307.2
+,Backups:,US East (N. Virginia),$47.5
+Amazon Elastic Load Balancing (US East (N. Virginia)),,,,$48.21
+,Classic LBs:,US East (N. Virginia),$18.3
+,Data Processed by Classic LBs:,US East (N. Virginia),$1.72
+,Application LBs:,US East (N. Virginia),$28.19
+Amazon DynamoDB Service (US East (N. Virginia)),,,,$80.89
+,On-demand Capacity:,US East (N. Virginia),$0
+,Provisioned Capacity:,US East (N. Virginia),$80.89
+,Indexed Data Storage:,US East (N. Virginia),$0
+,DynamoDB Streams:,US East (N. Virginia),$0
+,On-demand backup:,US East (N. Virginia),$0
+,Continuous backup (PITR):,US East (N. Virginia),$0
+,Restoring a table:,US East (N. Virginia),$0
+Amazon VPC Service (US East (N. Virginia)),,,,$40.44
+,NAT Gateway,US East (N. Virginia),$37.44
+,Intra – Region data Transfer:,US East (N. Virginia),$3
+AWS Data Transfer In,,,,$0
+,US East (N. Virginia) Region:,Global,$0
+AWS Data Transfer Out,,,,$42.21
+,US East (N. Virginia) Region:,Global,$42.21
+AWS Support (Basic),,,,$0
+,Support for all AWS services:,,$0
+,,Total Monthly Payment:,,$6482.29
+
+#justification
+The initial cost estimate was expensive because most resources were over provisioned.
+One way to reduce cost would be to monitor the resource usage and provision
+what is necessary.
+If the requirements are known clearly before hand, then one way to reduce cost
+would be to use reserved instances as they are much cheaper. The caveat is that
+reserved instances come with contracts.
